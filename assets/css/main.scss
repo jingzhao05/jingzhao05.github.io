@@ -1,0 +1,23 @@
+---
+---
+
+@import
+  'base',
+  'mixins',
+  'extends',
+  'layout',
+  'components',
+  'animations',
+  'helpers'
+;
+
+.text-box {
+  width: 100%;
+  padding: 2em 2em;
+  margin: 0 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
